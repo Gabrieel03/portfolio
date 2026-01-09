@@ -146,7 +146,7 @@ footer img:hover {
 /* Contato */
 .main_contato {
     display: grid;
-    grid-template-columns: 1fr 1rf;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
     width: 90%;
     margin: 2rem auto;
@@ -156,8 +156,8 @@ form {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    padding: 1.5ren;
-    border-radius: 0.75;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
 }
 
 form input, textarea {
@@ -200,7 +200,7 @@ form span {
     gap: 1rem;
     background: var(--white);
     padding: 1.5rem;
-    border-radius: -.75rem;
+    border-radius: 0.75rem;
 }
 
 .article_mapa address {

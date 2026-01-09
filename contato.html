@@ -7,7 +7,7 @@
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Generation Brasil">
     <meta name="keywords" content="HTML, CSS, JavaScript">
-    
+
     <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
     <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -29,47 +29,42 @@
         </nav>
     </header>
 
-    <main>
+    <main class="main_contato">
 
-        <main class="main_contato">
-
-            <form action="#" method="submit" id="fomulario">
+            <form action="#" method="submit" id="formulario">
 
                 <label for="nome">Nome: </label>
                 <input id="name" type="text" name="name" placeholder="Digite seu nome">
                 <span id="errNome"></span>
 
                 <label for="email">Email: </label>
-                <input id="email" type="text" email="name" placeholder="Digite seu email">
-                <span id="errNome"></span>
+                <input id="email" type="text" name="email" placeholder="Digite seu email">
+                <span id="errEmail"></span>
 
-                <label for="">Nome: </label>
-                <input id="name" type="text" name="name" placeholder="Digite seu nome">
-                <span id="errNome"></span>
+                <label for="subject">Assunto: </label>
+                <input id="subject" type="text" name="subject" placeholder="Digite o assunto da mensagem">
+                <span id="errSubject"></span>
 
-                <label for=""></label>
-                <textarea name="" id=""></textarea>
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" placeholder="Digite a sua mensagem"></textarea>
 
                 <button type="submit">Enviar</button>
 
             </form>
 
             <article class="article_mapa">
-                
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233794.18280517892!2d-46.422850999999966!3d-23.71047605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4278871d7eef%3A0x9eaaca862adb4ede!2sSanto%20Andr%C3%A9%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1767820423979!5m2!1spt-BR!2sbr" 
-                width="600" 
-                height="450" 
-                style="border:0;" 
-                allowfullscreen="" 
-                loading="lazy"
-                 referrerpolicy="no-referrer-when-downgrade">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233794.18280517892!2d-46.422850999999966!3d-23.71047605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4278871d7eef%3A0x9eaaca862adb4ede!2sSanto%20Andr%C3%A9%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1767820423979!5m2!1spt-BR!2sbr"
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
 
             </article>
-
-        </main>
-
-
     </main>
 
     <!-- Rodapé da Página (footer) -->
@@ -97,6 +92,8 @@
         </h3>
 
     </footer>
+
+    <script src="/assets/js/script.js"></script>
 </body>
 
 </html>
